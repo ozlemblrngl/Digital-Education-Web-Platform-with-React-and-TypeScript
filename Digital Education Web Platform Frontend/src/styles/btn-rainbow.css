@@ -1,0 +1,52 @@
+
+:root {
+    --background: 266, 16%, 92%;
+    --text-primary: 0, 0%, 0%;
+    /* Colors */
+    --black: 0, 0%, 0%;
+    --white: 0, 0%, 100%;
+    --red: 347, 84%, 68%;
+    --orange: 23, 84%, 68%;
+    --yellow: 52, 84%, 68%;
+    --green: 114, 84%, 68%;
+    --teal: 163, 84%, 68%;
+    --blue: 219, 84%, 68%;
+    --purple: 279, 84%, 68%;
+    --pink: 312, 84%, 68%;
+    /* Gradients */
+    --gradient: linear-gradient(90deg, hsla(var(--red), 1) 0%, hsla(var(--orange), 1) 12.5%, hsla(var(--yellow), 1) 25%, hsla(var(--green), 1) 37.5%, hsla(var(--teal), 1) 50%, hsla(var(--blue), 1) 62.5%, hsla(var(--blue), 1) 75%, hsla(var(--purple), 1) 87.5%, hsla(var(--pink), 1) 100%);
+    /* Sizes */
+    /* misc */
+    --transition-main: .175, .685, .32;
+    /* Fonts */
+  }
+  *, *::before, *::after {
+      box-sizing: inherit;
+  }
+ 
+  
+
+  .button-rainbow {
+      position: relative;
+      color: hsl(var(--background));
+      font-size: var(--paragraph);
+      background: var(--gradient);
+      background-size: 500%;
+      border-radius: 5em;
+      border: none;
+      transform: scaleX(1);
+      transition: background-position 7.5s cubic-bezier(var(--transition-main), .955);
+  }
+  
+
+ 
+ 
+  .button-rainbow:hover,:focus {
+      background-position: 100% 50%;
+      outline: none;
+  }
+
+.text-decoration{
+    text-decoration: none;
+   color: black !important;
+}

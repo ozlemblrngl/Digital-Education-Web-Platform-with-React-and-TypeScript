@@ -1,0 +1,121 @@
+.istanbul-main-logo{
+    height: 170px;
+    margin-top: 50px;
+}
+.login-logo-istanbul{
+    width: 200px;
+}
+.btn-login{
+    background-color: rgb(153,51,255) !important  ;
+    border-radius: 20px !important;
+    border: 0px !important;
+}
+.h-100 {
+    height: 100%!important;
+}
+
+.istanbul-kodluyor-submit-btn {
+    background-color: #1e0f41 !important;
+    color: #0fcdfa !important;
+    border-radius: 22px !important;
+    bottom: 22px;  position: relative;
+    padding: 3px 25px 4px 25px !important;
+}
+.quot{
+    color: rgb(0, 176, 120);
+}
+.text-blue{
+    font-size: 1.5em!important;
+    color: #110a3a;
+}
+.text-tobeto-black{
+    color: #4d4d4d;
+}
+.ik-banner-big {
+    min-height: 207px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 14px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+    position: relative;
+}
+.ik-banner-big:before {
+    content: "";
+    position: absolute;    background-image: url(https://tobeto.com/_next/static/media/dotv.9454a9b6.svg);
+
+    top: 5px;
+    right:  120%;
+    display: block;
+    width: 3em;
+    height: 3em;
+}
+.ik-banner-big:after {
+    content: "";
+    background-image: url(https://tobeto.com/_next/static/media/doth.d78dd392.svg);
+    position: absolute;
+    top: 155%;
+    left: 124%;
+    width: 3em;
+    background-size: 3em 3em;
+    height: 3em;
+    background-repeat: no-repeat;
+}
+
+.greenLine2:after {
+    content: " ";
+    display: block;
+    border-bottom: 2.5px solid #00b078!important;
+    margin: 2em 0px 4em 0px;
+    bottom:  35% ;    position: absolute;
+
+    width: 50%;
+}
+.login-button{
+    border: 1px solid rgb(243, 243, 243) !important;
+    border-radius: 22px !important ;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255) !important;
+}
+.text-purple
+{
+    color:  rgb(153,51,255) ;
+   
+}
+.card-title-main{
+    text-align: left;
+
+}
+.login-logo{
+    height: 40px;
+}
+.card.application{
+    border-left: 7px solid rgb(0, 122, 37);
+    border-radius: 10px;
+}
+.confirm{
+    color: aliceblue;
+    border-radius: 10px 0px 0px 10px; ;
+    background-color: rgb(0, 122, 37);
+  
+    padding: 0px 22px 2px 11px;
+    font-size: 13px;
+
+}
+.confirm-col{
+    text-align: right;
+}
+.main-card{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 15px;
+    box-shadow: 2px 1px 1px rgb(252, 251, 251);
+}
+
